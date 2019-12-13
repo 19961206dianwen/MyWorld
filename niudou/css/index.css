@@ -1,0 +1,136 @@
+.navbar{
+    min-height: 100px;
+    margin-bottom: 0px;
+    background-color: #fff;
+}
+.navbar-header img{
+    position: relative;
+    left: 115px;
+}
+#bs-example-navbar-collapse-1 li{
+    margin: 25px auto;
+    margin-left: 30px;
+    left: 200px;
+}
+/* #bs-example-navbar-collapse-1 a:hover{
+    border-bottom:2px solid rgb(245,222,90);
+} */
+#bs-example-navbar-collapse-1 a[class="active"]{
+    border-bottom:2px solid rgb(245,222,90);
+}
+@media (min-width:768px) and (max-width:991px){
+    .navbar-header img {
+        position: relative;
+        left: 0px;
+    }
+    .navbar-nav {
+        margin-top: -56px;
+        position: relative;
+        right: 50px;
+    }
+
+}
+@media (min-width:992px) and (max-width:1199px){
+    .navbar-header img {
+        position: relative;
+        left: 0px;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+        position: relative;
+    right: 160px;
+    }
+
+}
+.banner{
+    background-color: rgb(246,206,42);
+}
+.carousel-indicators li{
+    width: 30px;
+    height: 4px;
+    margin: 0;
+    opacity: .5;
+}
+.carousel-indicators .active {
+    width: 30px;
+    height: 4px;
+    margin: 0;
+    background-color: #fff;
+}
+.services{
+    margin-top: 10px;
+}
+.service-content{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.service-content div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services .service-title p{
+    width: 80px;
+    margin: 0 auto;
+    border-top:2px solid rgb(245,222,90);
+}
+.services .service-content p{
+    width: 300px;
+    margin: 0 auto;
+}
+.cases{
+    margin-top: 10px;
+    background-color: rgb(250,250,250);
+}
+.cases .cases-title p{
+    width: 100px;
+    margin: 0 auto;
+    border-top:2px solid rgb(245,222,90);
+}
+.cases-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cases-list div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cases-list img{
+    width: 100%;
+    height: 100%;
+}
+.history{
+    margin-top: 10px;
+}
+.history .cases-title p{
+    width: 100px;
+    margin: 0 auto;
+    border-top:2px solid rgb(245,222,90);
+}
+.history-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.history-list img{
+    width: 100%;
+    height: 100%;
+}
+.foot{
+    margin-top: 10px;
+    background-color: rgb(51,51,51);
+}
+.foot .img1{
+    position: relative;
+    left: 50px;
+    top: -28px;
+}
+.foot .text-muted{
+    margin-top: 35px;
+}
+.foot .foot-box2{
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+}
+.foot a{
+    text-decoration: none;
+}
